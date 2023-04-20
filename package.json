@@ -1,0 +1,27 @@
+{
+  "name": "pkghive",
+  "version": "1.0.0",
+  "description": "A package manager simaller to the npm package manager",
+  "main": "./bin/index.js",
+  "bin": {
+    "pkghive": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "package-manager",
+    "pkg"
+  ],
+  "author": "Justice",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^7.0.2",
+    "chalk": "^5.2.0",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "inquirer": "^9.1.5",
+    "request": "^2.88.2",
+    "yargs": "^17.7.1"
+  }
+}
